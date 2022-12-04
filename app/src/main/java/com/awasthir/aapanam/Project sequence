@@ -1,0 +1,16 @@
+layout:
+	product detail
+	home screen
+
+api implementation
+server side
+activity:
+	mainActivity
+		search bar
+		slider
+		categories (Recycler view)
+		recent items (latest)
+		
+adapters
+models
+utils
