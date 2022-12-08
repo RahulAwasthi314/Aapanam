@@ -52,7 +52,7 @@ public class CartActivity extends AppCompatActivity {
         binding.cartList.setAdapter(adapter);
 
 
-        binding.subtotal.setText(String.format("PKR %.2f",cart.getTotalPrice()));
+        binding.subtotal.setText(String.format("INR %.2f",cart.getTotalPrice()));
 
 
         binding.continueBtn.setOnClickListener(new View.OnClickListener() {
